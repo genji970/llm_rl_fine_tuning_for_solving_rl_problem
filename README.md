@@ -9,7 +9,7 @@ Not yet done.
 
  transformer architecture is mainly based on distribution of weights. hallucination occur due to lack of generalization to real world. Because of these reasons, transformer has limit. 
 
- I think roll out is the one way to solve this limit. But 100% randomness is bad, so I choose rl method. And whatsmore, if I add indicator to prompt, it will work better.
+ I think roll out is the one way to solve this limit. But 100% randomness is bad, so I choose rl method. And whatsmore, if I add indicator to prompt, I think it will work better.
 
 e.g)
  prompt : "This sequence is not that good/This sequence is less likely to gain higher reward. + f"state : {state}"
